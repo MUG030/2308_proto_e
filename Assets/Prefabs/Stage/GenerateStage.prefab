@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &473143985901847187
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8166507864836093421}
+  - component: {fileID: 3118680747473242442}
+  m_Layer: 0
+  m_Name: GenerateStage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8166507864836093421
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 473143985901847187}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 281, y: 27, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3118680747473242442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 473143985901847187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4039a080dd820d246a5c675e7694ca6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tilePrefabs:
+  - {fileID: 1060591843201864740, guid: 0585e840a5e5faf48a187ff2658de263, type: 3}
+  obstaclePrefabs: []
+  charGameObjectPair:
+  - character: 70
+    gameObject: {fileID: 9223278175090817201, guid: b52a55bd8fa4f334ba49a6bd44ee582e, type: 3}
+  - character: 78
+    gameObject: {fileID: 2931431651085775810, guid: a89f4a91f936cf3419e632f0fbc4829e, type: 3}
+  - character: 83
+    gameObject: {fileID: 2349575075435878752, guid: b1567e20edea5304e8bceadb6046e612, type: 3}
+  - character: 71
+    gameObject: {fileID: 595378588786793271, guid: 61a7e529c82dd454fa3a32ee065d9d48, type: 3}
+  - character: 80
+    gameObject: {fileID: 7539917050091285273, guid: 4ab39e988ab2a8d429d0aa9450603345, type: 3}
+  - character: 77
+    gameObject: {fileID: 6362578389115095449, guid: a2801ffab54f72e43bb3bf0dcbce1ca8, type: 3}
+  - character: 67
+    gameObject: {fileID: 5777469779197800160, guid: 7947f43ff5ab0b5459e5d75e88a43171, type: 3}
+  - character: 68
+    gameObject: {fileID: 3148529755555250931, guid: a7d5153d56222ff45b00800edc272407, type: 3}
+  - character: 69
+    gameObject: {fileID: 4532242144631672761, guid: 331b921d403fbed40a5233353327cc29, type: 3}
+  - character: 72
+    gameObject: {fileID: 2067659243261425957, guid: 17f95b1a28f562b4d9a0957225da5f5c, type: 3}
+  - character: 66
+    gameObject: {fileID: 8654317764400401549, guid: 991d3b861a893ca44ab47afe4fe8664a, type: 3}
+  totalFilesToCombine: 3
